@@ -1,0 +1,9 @@
+services:
+  port1:
+    image: lw2:v1
+    ports:
+      - '8080:8080'
+  port2:
+    image: lw2:v1
+    ports:
+      - '8081:8080'
